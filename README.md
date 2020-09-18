@@ -39,6 +39,4 @@ In order to participate, please first fill out this form to register for the sha
     - Run Description: A brief description on what is the difference in the recent model run compared to other runs (if it is applicable)
     - Plan for System Report: If you have any plan to submit your system report or release your model publicly, please specify that.
 
-Submit the predictions of the model for the samples of the test set, which will be provided later, to [EasyChair](https://urldefense.com/v3/__https://easychair.org/conferences/?conf=sduaaai21__;!!C5qS4YX3!Sgxkhh2juEB5WzmclunaUhWV76hQBFnIc9fVz_658mfwcw6DvfoXu6GqUHOE3AQKYA$). Please note that the submitted prediction file should have the same format as the `datasset/predictions.json` file and use the IDs of the test samples. 
-
 For more information see [SDU@AAAI-21](https://sites.google.com/view/sdu-aaai21/home)
