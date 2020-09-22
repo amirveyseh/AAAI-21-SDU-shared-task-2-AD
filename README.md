@@ -18,6 +18,13 @@ The dataset folder contains four files:
   - prediction: The correct meaning, i.e., expansion, of the acronym in the sample. These expansions should be selected from `diction.json` dictionary. 
   
   
+# Code
+In order to familiarize the participants with this task, we provide a rule-based baseline in `code` directory. This baseline computes the frequency of the long forms in the `train.json` file. Afterwards, to make prediction for the input file (e.g., `dev.json` file), for each acronym, it selects the long form with the highest frequency as the final prediction. If there is a tie, the long form that appears the first among all tied long forms in the dictionary is selected as the final prediction. To run this baseline, run the following command:
+
+`python code/most_frequent.py -input <path/to/input.json> -train <path/to/train.json> -diction <path/to/diction.json> -output <path/to/output.json`
+
+Please replace `<path/to/input.json>`, `<path/to/train.json>`, `<path/to/diction.json>`, `<path/to/output.json` with the real paths to the input file (e.g., `dataset/dev.json`), train, dictionary and output json files. The output file contains the predictions for the input file and could be consumed by the scorer described in the next section to obtain the performance of this baseline. The official scores for this baseline are: *Precision: 89.03%, Recall: 44.94%, F1: 59.73%*
+
 # Evaluation
 
 To evaluate the predictions (in the format provided in `dataset/predictions.json` file), run the following command:
