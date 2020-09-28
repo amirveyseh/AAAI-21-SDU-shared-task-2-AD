@@ -47,3 +47,6 @@ In order to participate, please first fill out this form to register for the sha
     - Plan for System Report: If you have any plan to submit your system report or release your model publicly, please specify that. Participants are strongly encouraged to submit a system report, regardless of the results.
 
 For more information, see [SDU@AAAI-21](https://sites.google.com/view/sdu-aaai21/shared-task).
+
+# Licenses
+The dataset provided for this shared task is licensed under [CC BY-NC-SA 4.0 international license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode), and the evaluation script and the baseline are licensed under MIT license.
