@@ -41,11 +41,11 @@ def score_expansion(key, prediction, verbos=False):
 
     micro_prec = sum(correct_per_expansion.values()) / sum(pred_per_expansion.values())
     micro_recall = sum(correct_per_expansion.values()) / sum(total_per_expansion.values())
-    micro_f1 = 2*micro_prec*micro_recall/(micro_prec+micro_recall)
+    micro_f1 = 2*micro_prec*micro_recall/(micro_prec+micro_recall) if micro_prec+micro_recall != 0 else 0
 
     macro_prec = sum(precs.values()) / len(precs)
     macro_recall = sum(recalls.values()) / len(recalls)
-    macro_f1 = 2*macro_prec*macro_recall / (macro_prec+macro_recall)
+    macro_f1 = 2*macro_prec*macro_recall / (macro_prec+macro_recall) if macro_prec+macro_recall != 0 else 0
 
     if verbos:
         print('Accuracy: {:.3%}'.format(acc))
