@@ -50,5 +50,17 @@ For more information, see [SDU@AAAI-21](https://sites.google.com/view/sdu-aaai21
 
 **Update**: The CodaLab competitions for the shared task is open. Participants can also submit their results to [Acronym Disambiguation](https://competitions.codalab.org/competitions/26611) competition. For more information, please check the [CodaLab competition for Acronym Disambiguation](https://competitions.codalab.org/competitions/26611).
 
+# Citation
+If you use the dataset, baseline or evaluation script release in this repo, please cite the following:
+
+```
+@inproceedings{veyseh-et-al-2020-what,
+   title={{What Does This Acronym Mean? Introducing a New Dataset for Acronym Identification and Disambiguation}},
+   author={Amir Pouran Ben Veyseh and Franck Dernoncourt and Quan Hung Tran and Thien Huu Nguyen},
+   year={2020},
+   booktitle={Proceedings of COLING}
+}
+```
+
 # Licenses
 The dataset provided for this shared task is licensed under [CC BY-NC-SA 4.0 international license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode), and the evaluation script and the baseline are licensed under MIT license.
