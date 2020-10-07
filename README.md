@@ -51,7 +51,7 @@ For more information, see [SDU@AAAI-21](https://sites.google.com/view/sdu-aaai21
 **Update**: The CodaLab competitions for the shared task is open. Participants can also submit their results to [Acronym Disambiguation](https://competitions.codalab.org/competitions/26611) competition. For more information, please check the [CodaLab competition for Acronym Disambiguation](https://competitions.codalab.org/competitions/26611).
 
 # Citation
-If you use the dataset, baseline or evaluation script release in this repo, please cite the following:
+If you use the dataset, baseline or evaluation script released in this repo, please cite our paper:
 
 ```
 @inproceedings{veyseh-et-al-2020-what,
